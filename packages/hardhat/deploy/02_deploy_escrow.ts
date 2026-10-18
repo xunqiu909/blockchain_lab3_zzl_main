@@ -1,7 +1,7 @@
 import { HardhatRuntimeEnvironment } from "hardhat/types";
 import { DeployFunction } from "hardhat-deploy/types";
 
-const ARBITER = "0x28D4cD8504A89249087A5b5480e4960aF68d378d";
+const ARBITER = "0xa508c9Ff372C40F1f109EdA1F8DB532fB556c30A";
 
 const deployEscrow: DeployFunction = async function (
   hre: HardhatRuntimeEnvironment
@@ -19,3 +19,4 @@ const deployEscrow: DeployFunction = async function (
 export default deployEscrow;
 
 deployEscrow.tags = ["EscrowZZL202430306139"];
+
